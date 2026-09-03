@@ -1,0 +1,22 @@
+# Trained Models & Large Checkpoint Weights (Host on Hugging Face / Zenodo)
+models/
+deep_learning/models/
+*.ckpt
+*.pt
+*.bin
+*.h5
+*.pth
+*.safetensors
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Logs & Temporary Files
+*.log
+.env
+.idea/
+.vscode/
+.DS_Store

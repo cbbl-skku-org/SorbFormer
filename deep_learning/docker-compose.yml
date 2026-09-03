@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  sorbformer-app:
+    build: .
+    container_name: sorbformer-web
+    ports:
+      - "127.0.0.1:8181:7860"
+    restart: unless-stopped
+    # NOTE: If the host has an NVIDIA GPU and you want the web app to use it 
+    # for faster inference, uncomment the 'deploy' section below. 
+    # (Requires nvidia-container-toolkit installed on the host).
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           device_ids: ["0"]
+    #           capabilities: [gpu]

@@ -1,0 +1,143 @@
+{
+    "categorical_columns": [
+        "Class",
+        "Order",
+        "Family",
+        "Genus",
+        "Species",
+        "plant_functional_group",
+        "plant_root_system",
+        "exposure_medium",
+        "plant_condition"
+    ],
+    "categorical_maps": {
+        "Class": {
+            "Liliopsida": 0,
+            "Magnoliopsida": 1
+        },
+        "Order": {
+            "Asterales": 0,
+            "Brassicales": 1,
+            "Caryophyllales": 2,
+            "Cucurbitales": 3,
+            "Dipsacales": 4,
+            "Fabales": 5,
+            "Malpighiales": 6,
+            "Poales": 7,
+            "Rosales": 8,
+            "Solanales": 9
+        },
+        "Family": {
+            "Amaranthaceae": 0,
+            "Asteraceae": 1,
+            "Brassicaceae": 2,
+            "Caprifoliaceae": 3,
+            "Cucurbitaceae": 4,
+            "Elaeagnaceae": 5,
+            "Fabaceae": 6,
+            "Poaceae": 7,
+            "Salicaceae": 8,
+            "Solanaceae": 9,
+            "Tamaricaceae": 10
+        },
+        "Genus": {
+            "Brassica": 0,
+            "Capsicum": 1,
+            "Cucumis": 2,
+            "Cucurbita": 3,
+            "Elaeagnus": 4,
+            "Festuca": 5,
+            "Glycine": 6,
+            "Hordeum": 7,
+            "Lactuca": 8,
+            "Lonicera": 9,
+            "Phaseolus": 10,
+            "Populus": 11,
+            "Solanum": 12,
+            "Spinacia": 13,
+            "Tamarix": 14,
+            "Trifolium": 15,
+            "Triticum": 16,
+            "Zea": 17
+        },
+        "Species": {
+            "Brassica oleracea": 0,
+            "Brassica rapa": 1,
+            "Capsicum annuum": 2,
+            "Cucumis sativus": 3,
+            "Cucurbita maxima": 4,
+            "Cucurbita pepo": 5,
+            "Elaeagnus angustifolia": 6,
+            "Festuca baffinensis": 7,
+            "Glycine max": 8,
+            "Hordeum vulgare": 9,
+            "Lactuca sativa": 10,
+            "Lonicera xylosteum": 11,
+            "Phaseolus vulgaris": 12,
+            "Populus tomentosa": 13,
+            "Solanum lycopersicum": 14,
+            "Spinacia oleracea": 15,
+            "Tamarix ramosissima": 16,
+            "Trifolium repens": 17,
+            "Triticum aestivum": 18,
+            "Zea mays": 19
+        },
+        "plant_functional_group": {
+            "forb": 0,
+            "grass": 1,
+            "legume": 2,
+            "shrub": 3,
+            "tree": 4
+        },
+        "plant_root_system": {
+            "fibrous": 0,
+            "taproot": 1
+        },
+        "exposure_medium": {
+            "DI_water": 0,
+            "hydroponic": 1
+        },
+        "plant_condition": {
+            "detopped": 0,
+            "intact": 1,
+            "intact -> detopped": 2
+        }
+    },
+    "numerical_columns": [
+        "logkow",
+        "molecular_weight",
+        "hbd",
+        "hba",
+        "rotatable_bonds",
+        "psa",
+        "vp",
+        "hl",
+        "ws",
+        "aromatic_rings",
+        "fraction_csp3",
+        "num_rings",
+        "num_heavy_atoms",
+        "num_heteroatoms",
+        "num_saturated_rings",
+        "num_aliphatic_rings",
+        "labute_asa",
+        "molar_refractivity",
+        "plant_monocot",
+        "plant_root_tissue_density",
+        "plant_root_lipid_content",
+        "plant_root_protein_content",
+        "plant_transpiration_rate",
+        "plant_stomatal_density",
+        "plant_specific_root_length",
+        "trait_LDMC",
+        "trait_rooting_depth",
+        "trait_SLA",
+        "trait_leaf_area",
+        "Co (mg/L)",
+        "t_dur (days)",
+        "pH"
+    ],
+    "confidence_columns": [],
+    "smiles_column": "SMILES",
+    "target_column": "TSCF"
+}
